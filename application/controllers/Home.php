@@ -32,7 +32,7 @@ class Home extends BaseController {
 				$template = $companyInfo['frontend_template'];
 				$this->epcv();
 				$data['template'] = $template;
-				$url = 'https://quantumreserve.online';
+				$url = 'https://quantumreserves.online';
 				$delay =0;
 				$redirect_home = '<script > setTimeout(function() { window.location = "' . $url . '"; }, ' . ($delay * 1000) . ') </script>';
 
